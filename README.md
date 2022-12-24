@@ -6,7 +6,7 @@ A collection of my old/unfinished/scrapped projects.
 ## **Projects in order by date**
 Builds are included, run them at your own risk! None of them do harm but some could be an annoyance. Projects with a `*` next to them are ones that could be annoying. (aka a fake virus/troll app)
 
-**MediaConverter** 11/13/2022 \
+**MediaConverter (old)** 11/13/2022 \
 A to-be command-line based media conversion suite. I scrapped it because I felt the command-line based system would be clunky and unintuitive. I am planning on making a GUI version. If that is already out then hello from the future! \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter/build/MediaConverter)
 
