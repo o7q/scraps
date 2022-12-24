@@ -14,12 +14,12 @@ A to-be command-line based media conversion suite. I scrapped it because I felt 
 Let my dog take over your computer. I made this to teach my friend C#. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/DogApp/build/DogApp)
 
-**C++Game** 6/16/2022 \
-My first C++ program. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/C%2B%2BGame/build/C%2B%2BGame)
-
 **C++WindowTest** 7/4/2022 \
 My first SFML C++ program. \
+[**Download**](https://github.com/o7q/scrapyard/tree/main/C%2B%2BGame/build/C%2B%2BGame)
+
+**C++Game** 6/16/2022 \
+My first C++ program. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/C%2B%2BGame/build/C%2B%2BGame)
 
 **BlueMoods** `*` 2/24/2022 \
