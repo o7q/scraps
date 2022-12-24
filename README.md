@@ -12,7 +12,7 @@ A to-be command-line based media conversion suite. I scrapped it because I felt 
 
 **DogApp** `*` 10/7/2022 \
 Let my dog take over your computer. I made this to teach my friend C#. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/chimichanga64/build/chimichanga64)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/DogApp/build/DogApp)
 
 **c++game** 6/16/2022 \
 My first C++ program. \
@@ -20,7 +20,7 @@ My first C++ program. \
 
 **BlueMoods** `*` 2/24/2022 \
 A joke virus I made with my friend. It makes blue emojis appear on the screen alongside silly sounds. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/BlueMoods/build/BlueMoods)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/BlueMoods/build)
 
 **chimichanga64** `*` 12/28/2021 \
 Another joke virus I made to troll my friend. \
@@ -32,8 +32,8 @@ A *scary* iptool that allows you to geolocate and ping ip addresses. Now known a
 
 **Vega** Unknown Date \
 A Minecraft modpack loader. Now known as [**cubeLauncher**](https://github.com/o7q/cubeLauncher). \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/chimichanga64/build/chimichanga64)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/Vega/build/Vega)
 
 **ServerHelper** Unknown Date \
 An old tool I made for my friend to help him set up a Minecraft server easily through ngrok. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/chimichanga64/build/chimichanga64)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/ServerHelper/build/ServerHelper)
