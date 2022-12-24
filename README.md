@@ -8,7 +8,7 @@ Builds are included, run them at your own risk! None of them do harm but some co
 
 **MediaConverter (old)** 11/13/2022 \
 A to-be command-line based media conversion suite. I scrapped it because I felt the command-line based system would be clunky and unintuitive. I am planning on making a GUI version. If that is already out then hello from the future! \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter/build/MediaConverter)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/build/MediaConverter)
 
 **DogApp**`*` 10/7/2022 \
 Let my dog take over your computer. I made this to teach my friend C#. \
