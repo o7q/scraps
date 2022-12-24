@@ -14,9 +14,13 @@ A to-be command-line based media conversion suite. I scrapped it because I felt 
 Let my dog take over your computer. I made this to teach my friend C#. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/DogApp/build/DogApp)
 
-**c++game** 6/16/2022 \
+**C++Game** 6/16/2022 \
 My first C++ program. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/c%2B%2Bgame/build/c%2B%2Bgame)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/C%2B%2BGame/build/C%2B%2BGame)
+
+**C++WindowTest** 7/4/2022 \
+My first SFML C++ program. \
+[**Download**](https://github.com/o7q/scrapyard/tree/main/C%2B%2BGame/build/C%2B%2BGame)
 
 **BlueMoods** `*` 2/24/2022 \
 A joke virus I made with my friend. It makes blue emojis appear on the screen alongside silly sounds. \
