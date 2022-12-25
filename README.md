@@ -8,7 +8,7 @@ Builds are included, run them at your own risk! None of them do harm but some co
 
 **CGrapher** 12/24/2022 \
 A horrible C graphing calculator I tried to make at 2 am while half asleep. \
-[**Download**]()
+[**Download**](https://github.com/o7q/scrapyard/tree/main/CGrapher/build/CGrapher)
 
 **MediaConverter (old)** 11/13/2022 \
 A to-be command-line based media conversion suite. I scrapped it because I felt the command-line based system would be clunky and unintuitive. I am planning on making a GUI version. If that is already out then hello from the future! \
