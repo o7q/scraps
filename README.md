@@ -1,5 +1,5 @@
 # scrapyard
-A collection of my old/unfinished/scrapped projects.
+A collection of my old/basic/scrapped projects.
 
 ---
 
@@ -12,6 +12,10 @@ A horrible C graphing calculator I tried to make at 2 am while half asleep. \
 
 **MediaConverter (old)** 11/13/2022 \
 A to-be command-line based media conversion suite. I scrapped it because I felt the command-line based system would be clunky and unintuitive. I am planning on making a GUI version. If that is already out then hello from the future! \
+[**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/build) | [**Source**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/src)
+
+**DiscordDevBadgeBot** 11/11/2022 \
+A Discord Bot that I forked that gives you the Discord Developer Badge via an application command. 🤓 \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/build) | [**Source**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/src)
 
 **DogApp**`*` 10/7/2022 \
