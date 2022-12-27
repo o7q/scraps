@@ -16,7 +16,7 @@ A to-be command-line based media conversion suite. I scrapped it because I felt 
 
 **DiscordDevBadgeBot** 11/11/2022 \
 A Discord Bot that I forked that gives you the Discord Developer Badge via an application command. 🤓 \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/build) | [**Source**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/src)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/DiscordDevBadgeBot/build) | [**Source**](https://github.com/o7q/scrapyard/tree/main/DiscordDevBadgeBot/src)
 
 **DogApp**`*` 10/7/2022 \
 Let my dog take over your computer. I made this to teach my friend C#. \
