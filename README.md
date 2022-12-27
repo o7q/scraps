@@ -15,7 +15,7 @@ A to-be command-line based media conversion suite. I scrapped it because I felt 
 [**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/build/MediaConverter) | [**Source**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/src/MediaConverter)
 
 **DiscordDevBadgeBot** 11/11/2022 \
-A Discord Bot that I forked that gives you the Discord Developer Badge via an application command. 🤓 \
+A Discord Bot I forked that gives you the Discord Developer Badge via an application command. 🤓 \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/DiscordDevBadgeBot/build/DiscordDevBadgeBot) | [**Source**](https://github.com/o7q/scrapyard/tree/main/DiscordDevBadgeBot/src/DiscordDevBadgeBot)
 
 **DogApp**`*` 10/7/2022 \
