@@ -10,6 +10,10 @@ Builds are included, run them at your own risk! None of them do harm but some co
 A horrible C graphing calculator I tried to make at 2 am while half asleep. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/CGrapher/build/CGrapher) | [**Source**](https://github.com/o7q/scrapyard/tree/main/CGrapher/src/CGrapher)
 
+**img2rgb** 12/12/2022 \
+A wonderful but now retired tool that was used for [**img2ascii**](https://github.com/o7q/img2ascii). It converts images in a sequence of rgb values. \
+[**Download**]() | [**Source**]()
+
 **MediaConverter (old)** 11/13/2022 \
 A to-be command-line based media conversion suite. I scrapped it because I felt the command-line based system would be clunky and unintuitive. I am planning on making a GUI version. If that is already out then hello from the future! \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/build/MediaConverter) | [**Source**](https://github.com/o7q/scrapyard/tree/main/MediaConverter%20(old)/src/MediaConverter)
