@@ -8,7 +8,7 @@ Builds are included, run them at your own risk! None of them do harm but some co
 
 **NumberSheet** 1/24/2023
 A helpful tool I made for my math homework that makes listed number sheets. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/NumberSheet/build/NumberSheet) | [**Source**](https://github.com/o7q/scrapyard/tree/main/NumberSheet/src/NumberSheet)
+[**Download**](https://github.com/o7q/scrapyard/tree/main/projects/NumberSheet/build/NumberSheet) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/NumberSheet/src/NumberSheet)
 
 **AnnoyingLogo** 1/23/2023 \
 A joke/test app that displays a logo ontop of all of your windows. \
