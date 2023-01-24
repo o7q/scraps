@@ -3,10 +3,11 @@ A collection of my random/scrapped projects.
 
 ---
 
-## **Projects in order by date**
-Builds are included, run them at your own risk! None of them do harm but some could be an annoyance. Projects with a `*` next to them are ones that could be annoying. (aka a fake virus/troll app)
+## **Projects (in order by date)**
+Builds are included, run them at your own risk! None of them do harm but some could be an annoyance. \
+Projects with a `*` next to them are ones that could be annoying. (a fake virus/troll app, etc.)
 
-**NumberSheet** 1/24/2023
+**NumberSheet** 1/24/2023 \
 A helpful tool I made for my math homework that makes listed number sheets. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/NumberSheet/build/NumberSheet) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/NumberSheet/src/NumberSheet)
 
