@@ -6,6 +6,10 @@ A collection of my old/basic/scrapped projects.
 ## **Projects in order by date**
 Builds are included, run them at your own risk! None of them do harm but some could be an annoyance. Projects with a `*` next to them are ones that could be annoying. (aka a fake virus/troll app)
 
+**AnnoyingLogo** 1/23/2023 \
+A joke app that displays a logo ontop of all of your windows. \
+[**Download**]() | [**Source**]()
+
 **CGrapher** 12/24/2022 \
 A horrible C graphing calculator I tried to make at 2 am while half asleep. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/CGrapher/build/CGrapher) | [**Source**](https://github.com/o7q/scrapyard/tree/main/CGrapher/src/CGrapher)
