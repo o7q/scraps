@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B21FF79C-4F69-4E24-BEDE-4D2248ACE530}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlueMoods</RootNamespace>
+    <AssemblyName>BlueMoods</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\PackagedBuild\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>BlueMoods.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="moods\mood10\mood10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood10\mood10.Designer.cs">
+      <DependentUpon>mood10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood11\mood11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood11\mood11.Designer.cs">
+      <DependentUpon>mood11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood12\mood12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood12\mood12.Designer.cs">
+      <DependentUpon>mood12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood13\mood13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood13\mood13.Designer.cs">
+      <DependentUpon>mood13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood14\mood14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood14\mood14.Designer.cs">
+      <DependentUpon>mood14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood15\mood15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood15\mood15.Designer.cs">
+      <DependentUpon>mood15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood16\mood16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood16\mood16.Designer.cs">
+      <DependentUpon>mood16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood17\mood17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood17\mood17.Designer.cs">
+      <DependentUpon>mood17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood18\mood18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood18\mood18.Designer.cs">
+      <DependentUpon>mood18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood19\mood19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood19\mood19.Designer.cs">
+      <DependentUpon>mood19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood1\mood1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood1\mood1.Designer.cs">
+      <DependentUpon>mood1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood20\mood20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood20\mood20.Designer.cs">
+      <DependentUpon>mood20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood21\mood21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood21\mood21.Designer.cs">
+      <DependentUpon>mood21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood22\mood22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood22\mood22.Designer.cs">
+      <DependentUpon>mood22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood23\mood23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood23\mood23.Designer.cs">
+      <DependentUpon>mood23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood24\mood24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood24\mood24.Designer.cs">
+      <DependentUpon>mood24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood25\mood25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood25\mood25.Designer.cs">
+      <DependentUpon>mood25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood26\mood26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood26\mood26.Designer.cs">
+      <DependentUpon>mood26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood27\mood27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood27\mood27.Designer.cs">
+      <DependentUpon>mood27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood28\mood28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood28\mood28.Designer.cs">
+      <DependentUpon>mood28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood29\mood29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood29\mood29.Designer.cs">
+      <DependentUpon>mood29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood2\mood2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood2\mood2.Designer.cs">
+      <DependentUpon>mood2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood30\mood30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood30\mood30.Designer.cs">
+      <DependentUpon>mood30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood31\mood31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood31\mood31.Designer.cs">
+      <DependentUpon>mood31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood32\mood32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood32\mood32.Designer.cs">
+      <DependentUpon>mood32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood33\mood33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood33\mood33.Designer.cs">
+      <DependentUpon>mood33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood34\mood34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood34\mood34.Designer.cs">
+      <DependentUpon>mood34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood35\mood35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood35\mood35.Designer.cs">
+      <DependentUpon>mood35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood36\mood36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood36\mood36.Designer.cs">
+      <DependentUpon>mood36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood37\mood37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood37\mood37.Designer.cs">
+      <DependentUpon>mood37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood38\mood38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood38\mood38.Designer.cs">
+      <DependentUpon>mood38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood39\mood39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood39\mood39.Designer.cs">
+      <DependentUpon>mood39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood3\mood3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood3\mood3.Designer.cs">
+      <DependentUpon>mood3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood40\mood40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood40\mood40.Designer.cs">
+      <DependentUpon>mood40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood41\mood41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood41\mood41.Designer.cs">
+      <DependentUpon>mood41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood42\mood42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood42\mood42.Designer.cs">
+      <DependentUpon>mood42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood43\mood43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood43\mood43.Designer.cs">
+      <DependentUpon>mood43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood44\mood44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood44\mood44.Designer.cs">
+      <DependentUpon>mood44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood45\mood45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood45\mood45.Designer.cs">
+      <DependentUpon>mood45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood46\mood46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood46\mood46.Designer.cs">
+      <DependentUpon>mood46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood47\mood47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood47\mood47.Designer.cs">
+      <DependentUpon>mood47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood4\mood4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood4\mood4.Designer.cs">
+      <DependentUpon>mood4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood5\mood5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood5\mood5.Designer.cs">
+      <DependentUpon>mood5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood6\mood6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood6\mood6.Designer.cs">
+      <DependentUpon>mood6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood7\mood7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood7\mood7.Designer.cs">
+      <DependentUpon>mood7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood8\mood8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood8\mood8.Designer.cs">
+      <DependentUpon>mood8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="moods\mood9\mood9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moods\mood9\mood9.Designer.cs">
+      <DependentUpon>mood9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mood_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mood_form.Designer.cs">
+      <DependentUpon>mood_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mood_initiate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="moods\mood10\mood10.resx">
+      <DependentUpon>mood10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood11\mood11.resx">
+      <DependentUpon>mood11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood12\mood12.resx">
+      <DependentUpon>mood12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood13\mood13.resx">
+      <DependentUpon>mood13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood14\mood14.resx">
+      <DependentUpon>mood14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood15\mood15.resx">
+      <DependentUpon>mood15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood16\mood16.resx">
+      <DependentUpon>mood16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood17\mood17.resx">
+      <DependentUpon>mood17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood18\mood18.resx">
+      <DependentUpon>mood18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood19\mood19.resx">
+      <DependentUpon>mood19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood1\mood1.resx">
+      <DependentUpon>mood1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood20\mood20.resx">
+      <DependentUpon>mood20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood21\mood21.resx">
+      <DependentUpon>mood21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood22\mood22.resx">
+      <DependentUpon>mood22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood23\mood23.resx">
+      <DependentUpon>mood23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood24\mood24.resx">
+      <DependentUpon>mood24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood25\mood25.resx">
+      <DependentUpon>mood25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood26\mood26.resx">
+      <DependentUpon>mood26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood27\mood27.resx">
+      <DependentUpon>mood27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood28\mood28.resx">
+      <DependentUpon>mood28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood29\mood29.resx">
+      <DependentUpon>mood29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood2\mood2.resx">
+      <DependentUpon>mood2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood30\mood30.resx">
+      <DependentUpon>mood30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood31\mood31.resx">
+      <DependentUpon>mood31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood32\mood32.resx">
+      <DependentUpon>mood32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood33\mood33.resx">
+      <DependentUpon>mood33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood34\mood34.resx">
+      <DependentUpon>mood34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood35\mood35.resx">
+      <DependentUpon>mood35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood36\mood36.resx">
+      <DependentUpon>mood36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood37\mood37.resx">
+      <DependentUpon>mood37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood38\mood38.resx">
+      <DependentUpon>mood38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood39\mood39.resx">
+      <DependentUpon>mood39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood3\mood3.resx">
+      <DependentUpon>mood3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood40\mood40.resx">
+      <DependentUpon>mood40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood41\mood41.resx">
+      <DependentUpon>mood41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood42\mood42.resx">
+      <DependentUpon>mood42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood43\mood43.resx">
+      <DependentUpon>mood43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood44\mood44.resx">
+      <DependentUpon>mood44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood45\mood45.resx">
+      <DependentUpon>mood45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood46\mood46.resx">
+      <DependentUpon>mood46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood47\mood47.resx">
+      <DependentUpon>mood47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood4\mood4.resx">
+      <DependentUpon>mood4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood5\mood5.resx">
+      <DependentUpon>mood5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood6\mood6.resx">
+      <DependentUpon>mood6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood7\mood7.resx">
+      <DependentUpon>mood7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood8\mood8.resx">
+      <DependentUpon>mood8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moods\mood9\mood9.resx">
+      <DependentUpon>mood9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mood_form.resx">
+      <DependentUpon>mood_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="moods\mood2\mood2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="moods\mood1\mood1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BlueMoods.ico" />
+    <EmbeddedResource Include="moods\mood47\mood47.wav" />
+    <EmbeddedResource Include="moods\mood29\mood29.wav" />
+    <EmbeddedResource Include="moods\mood3\mood3.wav" />
+    <EmbeddedResource Include="moods\mood25\mood25.wav" />
+    <EmbeddedResource Include="moods\mood26\mood26.wav" />
+    <EmbeddedResource Include="moods\mood27\mood27.wav" />
+    <EmbeddedResource Include="moods\mood28\mood28.wav" />
+    <EmbeddedResource Include="moods\mood30\mood30.wav" />
+    <EmbeddedResource Include="moods\mood31\mood31.wav" />
+    <EmbeddedResource Include="moods\mood32\mood32.wav" />
+    <EmbeddedResource Include="moods\mood33\mood33.wav" />
+    <EmbeddedResource Include="moods\mood34\mood34.wav" />
+    <EmbeddedResource Include="moods\mood35\mood35.wav" />
+    <EmbeddedResource Include="moods\mood36\mood36.wav" />
+    <EmbeddedResource Include="moods\mood37\mood37.wav" />
+    <EmbeddedResource Include="moods\mood38\mood38.wav" />
+    <EmbeddedResource Include="moods\mood39\mood39.wav" />
+    <EmbeddedResource Include="moods\mood40\mood40.wav" />
+    <EmbeddedResource Include="moods\mood41\mood41.wav" />
+    <EmbeddedResource Include="moods\mood42\mood42.wav" />
+    <EmbeddedResource Include="moods\mood43\mood43.wav" />
+    <EmbeddedResource Include="moods\mood44\mood44.wav" />
+    <EmbeddedResource Include="moods\mood45\mood45.wav" />
+    <EmbeddedResource Include="moods\mood46\mood46.wav" />
+    <EmbeddedResource Include="moods\mood14\mood14.wav" />
+    <EmbeddedResource Include="moods\mood15\mood15.wav" />
+    <EmbeddedResource Include="moods\mood16\mood16.wav" />
+    <EmbeddedResource Include="moods\mood17\mood17.wav" />
+    <EmbeddedResource Include="moods\mood18\mood18.wav" />
+    <EmbeddedResource Include="moods\mood19\mood19.wav" />
+    <EmbeddedResource Include="moods\mood20\mood20.wav" />
+    <EmbeddedResource Include="moods\mood21\mood21.wav" />
+    <EmbeddedResource Include="moods\mood22\mood22.wav" />
+    <EmbeddedResource Include="moods\mood23\mood23.wav" />
+    <EmbeddedResource Include="moods\mood24\mood24.wav" />
+    <EmbeddedResource Include="moods\mood13\mood13.wav" />
+    <EmbeddedResource Include="moods\mood10\mood10.wav" />
+    <EmbeddedResource Include="moods\mood11\mood11.wav" />
+    <EmbeddedResource Include="moods\mood12\mood12.wav" />
+    <EmbeddedResource Include="moods\mood7\mood7.wav" />
+    <EmbeddedResource Include="moods\mood8\mood8.wav" />
+    <EmbeddedResource Include="moods\mood9\mood9.wav" />
+    <EmbeddedResource Include="moods\mood6\mood6.wav" />
+    <EmbeddedResource Include="moods\mood5\mood5.wav" />
+    <EmbeddedResource Include="moods\mood4\mood4.wav" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
