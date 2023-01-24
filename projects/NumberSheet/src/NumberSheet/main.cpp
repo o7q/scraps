@@ -8,7 +8,7 @@ int main()
 {
     system("title NumberSheet");
 
-    int sheet_index = 0;
+    int sheet_index = 1;
 
     while (true)
     {
