@@ -1,4 +1,4 @@
-# scrapyard
+# **scrapyard**
 A collection of my random/scrapped projects.
 
 ---
@@ -6,6 +6,8 @@ A collection of my random/scrapped projects.
 ## **Projects (in order by date)**
 Builds are included, run them at your own risk! None of them do harm but some could be an annoyance. \
 Projects with a `*` next to them are ones that could be annoying. (a fake virus/troll app, etc.)
+
+<br>
 
 **NumberSheet** 1/24/2023 \
 A helpful tool I made for my math homework that makes listed number sheets. \
