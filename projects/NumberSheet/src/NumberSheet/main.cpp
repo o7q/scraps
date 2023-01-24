@@ -40,7 +40,7 @@ int main()
                     }
                 }
 
-                if (master_seglist.size() > 1 && i + 1 != master_seglist.size()) FINAL += "\n\n*\n\n";
+                if (master_seglist.size() > 1 && i + 1 != master_seglist.size()) FINAL += "\n\n&\n\n";
             }
 
             if (master_seglist[i].find('=') < master_seglist[i].length())
@@ -60,7 +60,7 @@ int main()
                 }
 
                 if (stoi(num_seglist[0]) % 2 != 0 && stoi(num_seglist[1]) % 2 == 0) FINAL = FINAL.substr(0, FINAL.size() - 5);
-                if (master_seglist.size() > 1 && i + 1 != master_seglist.size()) FINAL += "\n\n*\n\n";
+                if (master_seglist.size() > 1 && i + 1 != master_seglist.size()) FINAL += "\n\n&\n\n";
             }
         }
 
