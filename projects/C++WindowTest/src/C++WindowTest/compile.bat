@@ -1,2 +1,0 @@
-g++ *.cpp -o WinTest.exe -I "C:/Users/james/Desktop/C++ Window Test/WinTest/SFML-2.5.1/include" -L "C:/Users/james/Desktop/C++ Window Test/WinTest/SFML-2.5.1/lib" -lsfml-graphics -lsfml-network -lsfml-system -lsfml-main -lsfml-audio -lsfml-window
-PAUSE
