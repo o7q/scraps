@@ -10,7 +10,7 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 
 **NumberSheet** 1/24/2023 \
-A helpful tool I made for my math homework that makes listed number sheets. \
+A helpful tool I made for my math homework that makes formatted number sheets. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/NumberSheet/build/NumberSheet) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/NumberSheet/src/NumberSheet)
 
 **AnnoyingLogo** 1/23/2023 \
