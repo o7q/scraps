@@ -1,5 +1,5 @@
 # scrapyard
-A collection of my old/basic/scrapped projects.
+A collection of my old/scrapped/simple projects.
 
 ---
 
@@ -8,7 +8,7 @@ Builds are included, run them at your own risk! None of them do harm but some co
 
 **AnnoyingLogo** 1/23/2023 \
 A joke app that displays a logo ontop of all of your windows. \
-[**Download**]() | [**Source**]()
+[**Download**](https://github.com/o7q/scrapyard/tree/main/AnnoyingLogo/build/AnnoyingLogo) | [**Source**](https://github.com/o7q/scrapyard/tree/main/AnnoyingLogo/src/AnnoyingLogo)
 
 **CGrapher** 12/24/2022 \
 A horrible C graphing calculator I tried to make at 2 am while half asleep. \
