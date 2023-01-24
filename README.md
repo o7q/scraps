@@ -3,7 +3,7 @@ A collection of my random/scrapped projects.
 
 ---
 
-## Projects (in order by date)
+## **Projects (in order by date)**
 Builds are included, run them at your own risk! None of them do harm but some could be an annoyance. \
 Projects with a `*` next to them are ones that could be annoying. (a fake virus/troll app, etc.)
 
