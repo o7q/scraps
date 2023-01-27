@@ -18,7 +18,7 @@ A joke/test app that displays a logo ontop of all of your windows. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/AnnoyingLogo/build/AnnoyingLogo) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/AnnoyingLogo/src/AnnoyingLogo)
 
 **CGrapher** | Created on *12/24/2022* | Last Modified on *12/25/2022* \
-A horrible C graphing calculator I tried to make at 2 am while half asleep. \
+A horrible C graphing calculator I tried to make at 2AM while half asleep. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/CGrapher/build/CGrapher) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/CGrapher/src/CGrapher)
 
 **img2rgb** | Created on *12/12/2022* | Last Modified on *1/13/2023* \
