@@ -11,7 +11,7 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 
 **G++CompileTools** | Created on *1/27/2023* | Last Modified on *1/27/2023* \
 Two simple scripts I use everytime I need to compile C++ code. \
-[**Download**]() | [**Source**]()
+[**Download/Source**](https://github.com/o7q/scrapyard/tree/main/projects/G%2B%2BCompileTools/src/G%2B%2BCompileTools)
 
 **NumberSheet** | Created on *1/24/2023* | Last Modified on *1/27/2023* \
 A helpful tool I made for my math homework that makes formatted number sheets. \
