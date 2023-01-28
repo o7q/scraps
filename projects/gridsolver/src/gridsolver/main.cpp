@@ -8,9 +8,10 @@ int main()
 {
     system("title gridsolver");
 
-    srand(time(NULL));
-    const int MAX_ATTEMPTS = 512;
+    int MAX_ATTEMPTS;
+    cin >> MAX_ATTEMPTS;
 
+    srand(time(NULL));
     int attempt = 0;
     int grid[16];
     string grid_solution[MAX_ATTEMPTS] = {};
@@ -18,7 +19,6 @@ int main()
     while (attempt < MAX_ATTEMPTS)
     {
         int solved_index = 0;
-
         while (solved_index != 8)
         {
             solved_index = 0;
@@ -74,8 +74,8 @@ int main()
 
     int unique_solutions = 0;
 
-    sort(grid_solution, grid_solution + MAX_ATTEMPTS);
     int j = 0;
+    sort(grid_solution, grid_solution + MAX_ATTEMPTS);
     for (int i = 0; i < MAX_ATTEMPTS - 1; i++)
     {
         if (grid_solution[i] != grid_solution[i + 1])
@@ -88,7 +88,8 @@ int main()
         cout << grid_solution[i] << endl;
         unique_solutions++;
     }
-    cout << unique_solutions << " unique solutions!\n\n";
+
+    cout << unique_solutions << " unique solutions found!\n\n";
     system("pause");
 
     return 0;
