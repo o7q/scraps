@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+    system("title gridsolver");
+
     srand(time(NULL));
     const int MAX_ATTEMPTS = 1000;
 
