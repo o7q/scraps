@@ -9,7 +9,7 @@ int main()
     system("title gridsolver");
 
     srand(time(NULL));
-    const int MAX_ATTEMPTS = 1000;
+    const int MAX_ATTEMPTS = 512;
 
     int attempt = 0;
     int grid[16];
