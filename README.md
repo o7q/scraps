@@ -10,6 +10,10 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 
 **G++CompileTools** | Created on *1/27/2023* | Last Modified on *1/27/2023* \
+A program that calculates the total unique amount of combinations on a 4x4 grid containing 6 pieces in-which they are layed out in a way where there is an even amount of them per row and column. (challenge from math tutor) \
+[**Download**](https://github.com/o7q/scrapyard/tree/main/projects/gridsolver/build/gridsolver) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/gridsolver/src/gridsolver)
+
+**G++CompileTools** | Created on *1/27/2023* | Last Modified on *1/27/2023* \
 Two simple scripts I use everytime I need to compile C++ code. \
 [**Download/Source**](https://github.com/o7q/scrapyard/tree/main/projects/G%2B%2BCompileTools/src/G%2B%2BCompileTools)
 
