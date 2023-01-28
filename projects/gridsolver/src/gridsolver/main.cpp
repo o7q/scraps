@@ -40,16 +40,16 @@ int main()
                 for (int i = 0; i < 16; i++)
                     grid_sum += grid[i];
             }
-
-            solved_index += (grid[0] + grid[1] + grid[2] + grid[3]) % 2 == 0 ? 1 : 0;
-            solved_index += (grid[4] + grid[5] + grid[6] + grid[7]) % 2 == 0 ? 1 : 0;
-            solved_index += (grid[8] + grid[9] + grid[10] + grid[11]) % 2 == 0 ? 1 : 0;
-            solved_index += (grid[12] + grid[13] + grid[14] + grid[15]) % 2 == 0 ? 1 : 0;
-
-            solved_index += (grid[0] + grid[4] + grid[8] + grid[12]) % 2 == 0 ? 1 : 0;
-            solved_index += (grid[1] + grid[5] + grid[9] + grid[13]) % 2 == 0 ? 1 : 0;
-            solved_index += (grid[2] + grid[6] + grid[10] + grid[14]) % 2 == 0 ? 1 : 0;
-            solved_index += (grid[3] + grid[7] + grid[11] + grid[15]) % 2 == 0 ? 1 : 0;
+            // rows
+            if ((grid[0] + grid[1] + grid[2] + grid[3]) % 2 == 0) solved_index++;
+            if ((grid[4] + grid[5] + grid[6] + grid[7]) % 2 == 0) solved_index++;
+            if ((grid[8] + grid[9] + grid[10] + grid[11]) % 2 == 0) solved_index++;
+            if ((grid[12] + grid[13] + grid[14] + grid[15]) % 2 == 0) solved_index++;
+            // columns
+            if ((grid[0] + grid[4] + grid[8] + grid[12]) % 2 == 0) solved_index++;
+            if ((grid[1] + grid[5] + grid[9] + grid[13]) % 2 == 0) solved_index++;
+            if ((grid[2] + grid[6] + grid[10] + grid[14]) % 2 == 0) solved_index++;
+            if ((grid[3] + grid[7] + grid[11] + grid[15]) % 2 == 0) solved_index++;
         }
 
         for (int i = 0; i < 16; i++)

@@ -9,8 +9,8 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 
 <br>
 
-**gridsolver** | Created on *1/27/2023* | Last Modified on *1/27/2023* \
-A program that calculates the total number of unique combinations on a 4x4 grid containing 6 pieces in-which they are layed out in a way where there is an even amount of them per row and column. (challenge from my math teacher, note that the final number may change if you are unlucky, the higher `MAX_ATTEMPTS` is, the more accurate the answer will be, the amount of combinations is **96**.) \
+**gridsolver** | Created on *1/27/2023* | Last Modified on *1/28/2023* \
+A program that calculates the total number of unique combinations on a 4x4 grid containing 6 pieces in-which they are laid out in a way where there is an even amount of them per row and column. (challenge from my math teacher, note that the final number may change if you are unlucky, the higher `MAX_ATTEMPTS` is, the more accurate the answer will be, the amount of combinations is **96**.) \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/gridsolver/build/gridsolver) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/gridsolver/src/gridsolver)
 
 **G++CompileTools** | Created on *1/27/2023* | Last Modified on *1/27/2023* \
