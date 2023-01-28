@@ -1,5 +1,5 @@
 # **scrapyard**
-A collection of my random/scrapped projects.
+A collection of my random/scrapped/old projects.
 
 ---
 
