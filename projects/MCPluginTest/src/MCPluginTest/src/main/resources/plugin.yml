@@ -1,5 +1,0 @@
-name: Mcplugtest
-version: '${project.version}'
-main: mcplugtest.mcplugtest.Mcplugtest
-api-version: 1.19
-description: my test plugin!
