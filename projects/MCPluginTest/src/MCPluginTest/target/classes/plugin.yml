@@ -1,0 +1,5 @@
+name: Mcplugtest
+version: '1.0-SNAPSHOT'
+main: mcplugtest.mcplugtest.Mcplugtest
+api-version: 1.19
+description: my test plugin!
