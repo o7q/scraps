@@ -1,0 +1,6 @@
+name: MinecraftPluginTest
+version: '${project.version}'
+main: minecraftplugintest.minecraftplugintest.MinecraftPluginTest
+api-version: 1.19
+authors: [ o7q ]
+description: My first Minecraft plugin for Paper!
