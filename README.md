@@ -9,6 +9,10 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 
 <br>
 
+**wormy** | Created on *2/2/2023* | Last Modified on *2/3/2023* \
+Watch a little worm wiggle around. I was experimenting with my own implementation of perlin worms in p5.js. \
+[**Download**](https://github.com/o7q/scrapyard/tree/main/projects/wormy/build/wormy) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/wormy/src/wormy)
+
 **MCPluginTest** | Created on *2/2/2023* | Last Modified on *2/2/2023* \
 My first Minecraft plugin and Java program. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/MCPluginTest/build/MCPluginTest) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/MCPluginTest/src/MCPluginTest)
