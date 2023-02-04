@@ -81,11 +81,11 @@ int main()
             }
 
             if (grid[x][y] == 3) grid[x][y] = swap;
-
             swap = swap == 1 ? 2 : 1;
 
             cout << buffer;
             if (showLeap == true) system("pause");
+
             HANDLE oHandle;
             COORD pos;
             oHandle = GetStdHandle(STD_OUTPUT_HANDLE);
