@@ -10,6 +10,12 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
+**cavegen** | Created on *2/3/2023* | Last Modified on *2/4/2023* \
+A cave generator that uses my wormy2 algorithm. A successor to [wormy](https://github.com/o7q/scrapyard/tree/main/projects/wormy). \
+[**Download**]() | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/cavegen/src/cavegen)
+
+<br>
+
 **wormy** | Created on *2/2/2023* | Last Modified on *2/3/2023* \
 Watch a worm wriggle around. I was experimenting with my own version of a worm algorithm similar to 2D Perlin worms that I named wormy. Made in [p5.js](https://editor.p5js.org/o7q/sketches/fodD318Fk). \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/wormy/build/wormy) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/wormy/src/wormy)
