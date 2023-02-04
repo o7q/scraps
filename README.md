@@ -11,7 +11,7 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 
 **wormy** | Created on *2/2/2023* | Last Modified on *2/3/2023* \
-Watch a little worm wiggle around. I was experimenting with my own implementation of perlin worms in p5.js. \
+Watch a worm wriggle around. I was experimenting with my own version of a worm algorithm similar to 2D Perlin worms that I named wormy. Made in [p5.js](https://editor.p5js.org/o7q/sketches/fodD318Fk). \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/wormy/build/wormy) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/wormy/src/wormy)
 
 <br>
@@ -29,7 +29,7 @@ A program that calculates the total number of unique combinations on a 4x4 grid 
 <br>
 
 **G++CompileTools** | Created on *1/27/2023* | Last Modified on *1/27/2023* \
-Two simple scripts I use everytime I need to compile C++ code. \
+Two simple scripts I use every time I need to compile C++ code. \
 [**Download/Source**](https://github.com/o7q/scrapyard/tree/main/projects/G%2B%2BCompileTools/src/G%2B%2BCompileTools)
 
 <br>
@@ -41,7 +41,7 @@ A helpful tool I made for my math homework that makes formatted number sheets. \
 <br>
 
 **AnnoyingLogo** | Created on *1/23/2023* | Last Modified on *1/23/2023* \
-A joke/test app that displays a logo ontop of all of your windows. \
+A joke/test app that displays a logo on top of all of your windows. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/AnnoyingLogo/build/AnnoyingLogo) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/AnnoyingLogo/src/AnnoyingLogo)
 
 <br>
