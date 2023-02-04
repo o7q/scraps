@@ -53,7 +53,7 @@ A joke/test app that displays a logo on top of all of your windows. \
 <br>
 
 **CGrapher** | Created on *12/24/2022* | Last Modified on *12/25/2022* \
-A horrible C graphing calculator I tried to make at 2AM while half asleep. \
+An absolute abomination, a horrible, terrible, C graphing calculator I tried to make at 2AM while half asleep. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/CGrapher/build/CGrapher) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/CGrapher/src/CGrapher)
 
 <br>
