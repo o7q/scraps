@@ -12,7 +12,7 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 
 **gammasorter** | Created on *2/13/2023* | Last Modified on *2/14/2023* \
 Sorts images by their brightness level. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/projects/gammasorter/build/gammasorter) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/gammasorter/src/gammasorter)
+[**Download**](projects/gammasorter/build/gammasorter) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/gammasorter/src/gammasorter)
 
 <br>
 
