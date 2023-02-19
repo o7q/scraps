@@ -10,6 +10,12 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
+**vid2sequence** | Created on *2/18/2023* | Last Modified on *2/19/2023* \
+A simple batch script that uses FFmpeg to convert videos to image sequences. \
+[**Download/Source**](https://github.com/o7q/scrapyard/tree/main/projects/vid2sequence/src/vid2sequence)
+
+<br>
+
 **gammasorter** | Created on *2/13/2023* | Last Modified on *2/14/2023* \
 Sorts images by their brightness level. \
 [**Download**](https://github.com/o7q/scrapyard/tree/main/projects/gammasorter/build/gammasorter) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/gammasorter/src/gammasorter)
