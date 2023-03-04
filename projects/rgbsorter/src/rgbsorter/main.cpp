@@ -24,33 +24,38 @@ bool load_frame_raw(vector<unsigned char> &image, const string &filename, int &x
 
 int main()
 {
-    system("title gammasorter");
+    system("title rgbsorter");
     system("mkdir input 2> nul");
 
-    int width, height;
+    int width, height, skipFfmpeg, mode;
     cout << "width:\n"; cin >> width;
     cout << "height:\n"; cin >> height;
+    cout << "skip ffmpeg? (1 = yes, 0 = no):\n"; cin >> skipFfmpeg;
+    cout << "sort mode:\n [0] BRIGHTNESS \n [1] RED\n [2] GREEN\n [3] BLUE\n"; cin >> mode;
     int area = width * height;
 
     cout << endl;
 
     system("mkdir working & mkdir output");
 
-    string convertScript = "@echo off\n"
+    if (skipFfmpeg == 0)
+    {
+        string convertScript = "@echo off\n"
                            "setlocal enabledelayedexpansion\n"
                            "set img=0\n"
                            "for %%i in (\"input\\*.png\", \"input\\*.jpg\") do (\n"
-                           "    echo PREPARING IMAGE !img!\n"
+                           "    echo !img!\n"
                            "    \"ffmpeg\" -loglevel quiet -i \"%%i\" -vf scale=\"" + to_string(width) + ":" + to_string(height) + "\" -q:v 1 \"working\\!img!.jpg\"\n"
                            "    set /a img+=1\n"
                            ")\n";
-    ofstream out;
-    out.open("script.bat");
-    out << convertScript;
-    out.close();
-    system("script.bat");
+        ofstream out;
+        out.open("script.bat");
+        out << convertScript;
+        out.close();
+        system("script.bat");
 
-    cout << endl;
+        cout << endl;
+    }
 
     int imgCount = 0;
     if (auto dir = opendir(("working")))
@@ -63,7 +68,7 @@ int main()
         closedir(dir);
     }
 
-    int gammaStore[imgCount];
+    int colorStore[imgCount];
     int imgStore[imgCount];
 
     int imgIndex = 0;
@@ -77,13 +82,13 @@ int main()
         if (!success)
         {
             cout << "ERROR LOADING FRAME\n";
-            gammaStore[j] = 0;
+            colorStore[j] = 0;
             imgStore[j] = j;
             imgIndex++;
             continue;
         }
 
-        int gammaValue = 0;
+        int colorValue = 0;
 
         int x_pos = 0;
         int y_pos = 0;
@@ -97,18 +102,35 @@ int main()
                 y_pos++;
             }
 
-            int tempGamma = 0;
-
             size_t pixelIndex = RGB * (y_pos * img_width + x_pos);
-            for (int j = 0; j < 3; j++) tempGamma += static_cast<int>(img[pixelIndex + j]);
-            gammaValue += tempGamma / 3;
+
+            int rgb[3] = {0};
+            for (int j = 0; j < 3; j++) rgb[j] = static_cast<int>(img[pixelIndex + j]);
+
+            int tempColor = 0;
+            switch (mode)
+            {
+                case 0:
+                    for (int j = 0; j < 3; j++) tempColor += rgb[j];
+                    colorValue += tempColor / 3;
+                    break;
+                case 1:
+                    colorValue += rgb[0] - ((rgb[1] + rgb[2]) / 2);
+                    break;
+                case 2:
+                    colorValue += rgb[1] - ((rgb[0] + rgb[2]) / 2);
+                    break;
+                case 3:
+                    colorValue += rgb[2] - ((rgb[0] + rgb[1]) / 2);
+                    break;
+            }
 
             x_pos++;
         }
 
-        cout << gammaValue << " : " << j << endl;
+        cout << j << " : " << colorValue << endl;
 
-        gammaStore[j] = gammaValue;
+        colorStore[j] = colorValue;
         imgStore[j] = j;
 
         imgIndex++;
@@ -116,23 +138,23 @@ int main()
 
     vector<pair <int, int>> vect;
     // init 1st and 2nd element of pairs with array values
-    int n = sizeof(gammaStore)/sizeof(gammaStore[0]);
+    int n = sizeof(colorStore)/sizeof(colorStore[0]);
     // enter values in vector of pairs
-    for (int i=0; i<n; i++) vect.push_back( make_pair(gammaStore[i],imgStore[i]) );
+    for (int i=0; i<n; i++) vect.push_back( make_pair(colorStore[i],imgStore[i]) );
     // using simple sort() function to sort
     sort(vect.begin(), vect.end());
 
     cout << endl;
 
     for (int i = 0; i < n; i++)
-        cout << vect[i].first << " : " << vect[i].second << endl;
+        cout << vect[i].second << " : " << vect[i].first << endl;
 
     cout << endl;
 
     for (int i = 0; i < imgCount; i++)
     {
-        cout << vect[i].second << ".* -> " << i << ".jpg\n";
-        system(("copy \"working\\" + to_string(vect[i].second) + ".jpg\" \"output\\" + to_string(i) + ".jpg\"").c_str());
+        cout << i << ".jpg <- " << vect[i].second << ".*\n";
+        system(("copy \"working\\" + to_string(vect[i].second) + ".jpg\" \"output\\" + to_string(i) + ".jpg\" 2> nul").c_str());
     }
     system("del /f \"script.bat\" 2> nul");
     // system("del /f \"script.bat\" 2> nul & rmdir \"working\" /s /q 2> nul");

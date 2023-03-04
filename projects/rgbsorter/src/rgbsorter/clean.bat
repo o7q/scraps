@@ -1,5 +1,5 @@
 @echo off
-set name=gammasorter
+set name=rgbsorter
 title Cleaning %name%
 color 7
 del "%name%.exe" /f 2> nul
