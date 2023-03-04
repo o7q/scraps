@@ -16,9 +16,9 @@ A simple batch script that uses FFmpeg to convert videos to image sequences. \
 
 <br>
 
-**gammasorter** | Created on *2/13/2023* | Last Modified on *2/14/2023* \
-Sorts images by their brightness level. \
-[**Download**](https://github.com/o7q/scrapyard/tree/main/projects/gammasorter/build/gammasorter) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/gammasorter/src/gammasorter)
+**gammasorter** | Created on *2/13/2023* | Last Modified on *3/4/2023* \
+Sorts images by their brightness and rgb levels. \
+[**Download**](https://github.com/o7q/scrapyard/tree/main/projects/rgbsorter/build/rgbsorter) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/rgbsorter/src/rgbsorter)
 
 <br>
 
