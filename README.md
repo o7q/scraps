@@ -150,4 +150,4 @@ A bad Minecraft modpack loader I made a long time ago. Now known as [**cubeLaunc
 
 **ServerHelper** | Created on *Unknown* | Last Modified on *12/23/2022* \
 An old tool I made for my friend to help him set up a Minecraft server easily through ngrok. \
-[**Download**](things/ServerHelper/build/ServerHelper/ServerHelper.zip) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/ServerHelper/src/ServerHelper)
+[**Download**](things/ServerHelper/build/ServerHelper) | [**Source**](https://github.com/o7q/scrapyard/tree/main/projects/ServerHelper/src/ServerHelper)
