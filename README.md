@@ -10,17 +10,17 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
-<!-- **VirtualRegister** | Created on *7/2/2023* | Last Modified on *7/2/2023* \
+**VirtualRegister** | Created on *7/2/2023* | Last Modified on *7/2/2023* \
 A virtual bank register. \
-[**Download**]() | [**Source**]()
+[**Download**](things/VirtualRegister/build/VirtualRegister) | [**Source**](things/VirtualRegister/src/VirtualRegister)
 
 <br>
 
 **textscale** | Created on *4/4/2023* | Last Modified on *4/4/2023* \
 A simple challenge my friend gave me to solve. \
-[**Download**]() | [**Source**]()
+[**Download**](things/textscale/build/textscale) | [**Source**](things/textscale/src/textscale)
 
-<br> -->
+<br>
 
 **ngrok-wrapper** | Created on *3/12/2023* | Last Modified on *3/16/2023* \
 A simple ngrok interface. \
