@@ -16,6 +16,12 @@ A virtual bank register. \
 
 <br>
 
+**e** | Created on *5/8/2023* | Last Modified on *5/8/2023* \
+Calculate e. \
+[**Download**](things/e/build/e) | [**Source**](things/e/src/e)
+
+<br>
+
 **textscale** | Created on *4/4/2023* | Last Modified on *4/4/2023* \
 A simple challenge my friend gave me to solve. \
 [**Download**](things/textscale/build/textscale) | [**Source**](things/textscale/src/textscale)
