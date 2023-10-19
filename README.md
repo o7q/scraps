@@ -10,9 +10,21 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
-**VirtualRegister** | Created on *7/2/2023* | Last Modified on *7/2/2023* \
-A virtual bank register. \
-[**Download**](things/VirtualRegister/build/VirtualRegister) | [**Source**](things/VirtualRegister/src/VirtualRegister)
+**FileScrubber** | Created on *9/4/2023* | Last Modified on *9/4/2023* \
+Purge all files in a directory, it will delete all the contents of the file without deleting the file itself. I made this tool to help me clear some of my steam cloud storage. \
+[**Download**](things/FileScrubber/build/FileScrubber) | [**Source**](things/FileScrubber/src/FileScrubber)
+
+<br>
+
+**media_splitter** | Created on *8/5/2023* | Last Modified on *8/5/2023* \
+Split media into multiple files at time intervals. \
+[**Download/Source**](things/media_splitter/src/media_splitter)
+
+<br>
+
+**ValorantOptimizer**`*` | Created on *5/20/2023* | Last Modified on *5/20/2023* \
+A fake virus I made to troll my friend. \
+[**Download**](things/media_splitter/build/media_splitter) | [**Source**](things/media_splitter/src/media_splitter)
 
 <br>
 
