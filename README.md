@@ -52,9 +52,9 @@ A simple batch script that uses FFmpeg to convert videos to image sequences. \
 
 <br>
 
-**gammasorter** | Created on *2/13/2023* | Last Modified on *3/4/2023* \
+**rgbsorter** | Created on *2/13/2023* | Last Modified on *3/4/2023* \
 Sorts images by their brightness and rgb levels. \
-[**Download**](things/gammasorter/build/gammasorter) | [**Source**](things/gammasorter/src/gammasorter)
+[**Download**](things/rgbsorter/build/rgbsorter) | [**Source**](things/rgbsorter/src/rgbsorter)
 
 <br>
 
