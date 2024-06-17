@@ -10,6 +10,54 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
+**SuperRenamer** | Created on *4/21/2024* | Last Modified on *4/21/2024* \
+A program that renames every reference and file name related to a keyword. I made this tool as an aid for my C programming class.
+[**Download**](things/SuperRenamer/build/SuperRenamer) | [**Source**](things/SuperRenamer/src/SuperRenamer)
+
+<br>
+
+**PrimeFactorizationCounter** | Created on *3/29/2024* | Last Modified on *3/29/2024* \
+An extremely simple program that displays all possible ways to multiple 2 numbers to equal the product of n number of primes.
+[**Download**](things/PrimeFactorizationCounter/build/PrimeFactorizationCounter) | [**Source**](things/PrimeFactorizationCounter/src/PrimeFactorizationCounter)
+
+<br>
+
+**GameQuest** | Created on *3/16/2024* | Last Modified on *3/16/2024* \
+A program I made to track video game completion progress.
+[**Download**](things/GameQuest/build/GameQuest) | [**Source**](things/GameQuest/src/GameQuest)
+
+<br>
+
+**ImagePairer** | Created on *3/14/2024* | Last Modified on *3/14/2024* \
+An experimental program that groups/sorts images depending on how visually similar they are.
+[**Download**](things/ImagePairer/build/ImagePairer) | [**Source**](things/ImagePairer/src/ImagePairer)
+
+<br>
+
+**SimpleKeylogger** | Created on *3/6/2024* | Last Modified on *3/6/2024* \
+An experiment to see how easy it was to make a keylogger.
+[**Source**](things/SimpleKeylogger/src)
+
+<br>
+
+**BulkFileRenamer** | Created on *2/29/2024* | Last Modified on *2/29/2024* \
+A program that bulk renames files with a set rule, I made this program to aid in video editing.
+[**Download**](things/BulkFileRenamer/build/BulkFileRenamer) | [**Source**](things/BulkFileRenamer/src/BulkFileRenamer)
+
+<br>
+
+**DynamicFirewall** | Created on *12/30/2023* | Last Modified on *12/30/2023* \
+A test program that blocks specific dynamic addresses.
+[**Download**](things/DynamicFirewall/build/DynamicFirewall) | [**Source**](things/DynamicFirewall/src/DynamicFirewall)
+
+<br>
+
+**DirectoryTreeCloner** | Created on *12/25/2023* | Last Modified on *12/25/2023* \
+A simple program that clones a directory, just the folders and no files. I made this program to aid in backing up files.
+[**Download**](things/DirectoryTreeCloner/build/DirectoryTreeCloner) | [**Source**](things/DirectoryTreeCloner/src/DirectoryTreeCloner)
+
+<br>
+
 **FileScrubber** | Created on *9/4/2023* | Last Modified on *9/4/2023* \
 Purge all files in a directory, it will delete all the contents of the file without deleting the file itself. I made this tool to help me clear some of my steam cloud storage. \
 [**Download**](things/FileScrubber/build/FileScrubber) | [**Source**](things/FileScrubber/src/FileScrubber)

@@ -23,6 +23,8 @@ namespace DynamicFirewall
             if (File.Exists("addresses.txt"))
                 AddressTextBox.Text = File.ReadAllText("addresses.txt");
 
+            updateTimer.Elapsed += new ElapsedEventHandler(UpdateFirewall);
+            updateTimer.Interval = 20000;
             updateTimer.Enabled = true;
         }
 
@@ -48,7 +50,10 @@ namespace DynamicFirewall
                 {
                     IPAddress[] addresses = Dns.GetHostAddresses(addressRaw);
                     foreach (IPAddress address in addresses)
+                    {
                         addressesFormatted += address + ",";
+                        Console.WriteLine($"Got address: " + address);
+                    }
                 }
                 catch
                 {
@@ -58,12 +63,16 @@ namespace DynamicFirewall
 
             addressesFormatted = addressesFormatted.Substring(0, addressesFormatted.Length - 1);
 
+            Console.WriteLine($"Formatted Addresses: " + addressesFormatted);
+
             return addressesFormatted;
         }
 
         private void UpdateFirewallRules(string addresses)
         {
             DeleteFirewallRule(ruleName);
+
+            Console.WriteLine($"Deleted rule: " + ruleName);
 
             Type type = Type.GetTypeFromProgID("HNetCfg.FwPolicy2");
             dynamic fwPolicy2 = Activator.CreateInstance(type);
@@ -79,6 +88,8 @@ namespace DynamicFirewall
             firewallRule.Enabled = true;
 
             fwPolicy2.Rules.Add(firewallRule);
+
+            Console.WriteLine($"Created new rule: " + firewallRule);
         }
 
         private void DeleteFirewallRule(string ruleName)
@@ -110,14 +121,13 @@ namespace DynamicFirewall
 
         private void AutoCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            updateTimer.Elapsed += new ElapsedEventHandler(UpdateFirewall);
-            updateTimer.Interval = 20000;
             updateTimer.Enabled = AutoCheckBox.Checked;
         }
 
         private void UpdateFirewall(object source, ElapsedEventArgs e)
         {
-                Invoke((MethodInvoker)delegate
+            Console.WriteLine(DateTime.Now);
+            Invoke((MethodInvoker)delegate
                 {
                     string[] rawAddresses = AddressTextBox.Text.Split('\n');
                     string addresses = GetIPAddresses(rawAddresses);

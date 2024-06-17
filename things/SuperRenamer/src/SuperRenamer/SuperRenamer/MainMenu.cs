@@ -39,9 +39,12 @@ namespace SuperRenamer
             foreach (string file in Directory.GetFiles(directoryPath, "*", SearchOption.AllDirectories))
             {
                 string fileText = File.ReadAllText(file);
-                string newFileText = fileText.Replace(oldString, newString);
 
-                File.WriteAllText(file, newFileText);
+                if (fileText.Contains(oldString))
+                {
+                    string newFileText = fileText.Replace(oldString, newString);
+                    File.WriteAllText(file, newFileText);
+                }
 
                 if (Path.GetFileNameWithoutExtension(file).Contains(oldString))
                 {
