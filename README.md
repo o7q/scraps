@@ -10,6 +10,12 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
+**HoloFishBot** | Created on *5/22/2024* | Last Modified on *5/22/2024* \
+A fishing bot for HoloCure. \
+[**Download**](things/HoloFishBot/build/HoloFishBot) | [**Source**](things/HoloFishBot/src/HoloFishBot)
+
+<br>
+
 **SuperRenamer** | Created on *4/21/2024* | Last Modified on *4/21/2024* \
 A program that renames every reference and file name related to a keyword. I made this tool as an aid for my C programming class. \
 [**Download**](things/SuperRenamer/build/SuperRenamer) | [**Source**](things/SuperRenamer/src/SuperRenamer)
