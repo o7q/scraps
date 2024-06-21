@@ -154,12 +154,6 @@ A joke/test app that displays a logo on top of all of your windows. \
 
 <br>
 
-**CGrapher** | Created on *12/24/2022* | Last Modified on *12/25/2022* \
-An absolute abomination, a horrible, terrible, C graphing calculator I tried to make at 2AM while half asleep. \
-[**Download**](things/CGrapher/build/CGrapher) | [**Source**](things/CGrapher/src/CGrapher)
-
-<br>
-
 **img2rgb** | Created on *12/12/2022* | Last Modified on *1/13/2023* \
 A wonderful but now retired tool that was used for [**img2ascii**](https://github.com/o7q/img2ascii). It converts images in a sequence of rgb values. \
 [**Download**](things/img2rgb/build/img2rgb) | [**Source**](things/img2rgb/src/img2rgb)
