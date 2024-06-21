@@ -1,12 +1,12 @@
 using System;
+using System.IO;
+using System.Text;
+using System.Timers;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Timers;
-using System.IO;
-using System.Text;
 
 namespace HoloFishBot
 {
@@ -172,59 +172,56 @@ namespace HoloFishBot
                     bitmap.Dispose();
 
                     // 180 is the amount of color matched pixels to be seen before it clicks
-                    if (maxColorMatch > colorThreshold)
+                    if (maxColorMatch > colorThreshold && canKeyPress)
                     {
-                        if (canKeyPress)
+                        switch (closestIndex)
                         {
-                            switch (closestIndex)
-                            {
-                                case 0:
-                                    Task.Run(() => SimulateKeyPress(VK_W));
+                            case 0:
+                                Task.Run(() => SimulateKeyPress(VK_W));
 
-                                    lastKey = "W";
+                                lastKey = "W";
 
-                                    break;
-                                case 1:
-                                    Task.Run(() => SimulateKeyPress(VK_S));
+                                break;
+                            case 1:
+                                Task.Run(() => SimulateKeyPress(VK_S));
 
-                                    lastKey = "S";
+                                lastKey = "S";
 
-                                    break;
-                                case 2:
-                                    Task.Run(() => SimulateKeyPress(VK_A));
+                                break;
+                            case 2:
+                                Task.Run(() => SimulateKeyPress(VK_A));
 
-                                    lastKey = "A";
+                                lastKey = "A";
 
-                                    break;
-                                case 3:
-                                    Task.Run(() => SimulateKeyPress(VK_D));
+                                break;
+                            case 3:
+                                Task.Run(() => SimulateKeyPress(VK_D));
 
-                                    lastKey = "D";
+                                lastKey = "D";
 
-                                    break;
-                                case 4:
-                                    Task.Run(() => SimulateKeyPress(VK_RETURN));
+                                break;
+                            case 4:
+                                Task.Run(() => SimulateKeyPress(VK_RETURN));
 
-                                    lastKey = "Enter";
+                                lastKey = "Enter";
 
-                                    break;
-                                case 5:
-                                    Task.Run(() => SimulateKeyPress(VK_RETURN));
-                                    Thread.Sleep(200);
-                                    Task.Run(() => SimulateKeyPress(VK_RETURN));
+                                break;
+                            case 5:
+                                Task.Run(() => SimulateKeyPress(VK_RETURN));
+                                Thread.Sleep(200);
+                                Task.Run(() => SimulateKeyPress(VK_RETURN));
 
-                                    lastKey = "Enter";
-                                    fishCaught++;
+                                lastKey = "Enter";
+                                fishCaught++;
 
-                                    break;
-                            }
-
-                            canKeyPress = false;
-
-                            Console.WriteLine(lastKey);
+                                break;
                         }
+
+                        canKeyPress = false;
+
+                        Console.WriteLine(lastKey);
                     }
-                    
+
                     if (maxColorMatch < 20)
                     {
                         canKeyPress = true;
