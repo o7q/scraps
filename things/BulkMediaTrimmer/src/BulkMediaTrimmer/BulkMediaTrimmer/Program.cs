@@ -86,15 +86,17 @@ namespace BulkMediaTrimmer
 
         private static void CloneDirectory(string directory)
         {
-            string fromPathFolderName = Path.GetFileName(directory);
-            int fromPathLength = directory.Length;
+            string rootDirectoryName = Path.GetFileName(directory);
+            int rootDirectoryLength = directory.Length;
 
             DirectoryInfo directoryInfo = new DirectoryInfo(directory);
 
+            Directory.CreateDirectory($"output\\{rootDirectoryName}");
+
             foreach (DirectoryInfo folder in directoryInfo.GetDirectories("*", SearchOption.AllDirectories))
             {
-                string relativePath = folder.FullName.Substring(fromPathLength + 1);
-                Directory.CreateDirectory($"output\\{fromPathFolderName}\\{relativePath}");
+                string relativePath = folder.FullName.Substring(rootDirectoryLength + 1);
+                Directory.CreateDirectory($"output\\{rootDirectoryName}\\{relativePath}");
             }
         }
     }
