@@ -18,7 +18,7 @@ A program that displays the difference between two directories. \
 
 **MCTextureReplacer** | Created on *6/3/2024* | Last Modified on *6/3/2024* \
 A program that replaces all Minecraft textures with a specific image. \
-[**Download**](things/SuperRenamer/build/SuperRenamer) | [**Source**](things/SuperRenamer/src/SuperRenamer)
+[**Download**](things/MCTextureReplacer/build/MCTextureReplacer) | [**Source**](things/MCTextureReplacer/src/MCTextureReplacer)
 
 <br>
 
