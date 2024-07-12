@@ -88,6 +88,12 @@ A simple program that clones a directory, just the folders and no files. I made 
 
 <br>
 
+**Cryptor64** | Created on *11/11/2023* | Last Modified on *11/11/2023* \
+A simple program that encodes and decodes strings in base64. \
+[**Download**](things/Cryptor64/build/Cryptor64) | [**Source**](things/Cryptor64/src/Cryptor64)
+
+<br>
+
 **FileScrubber** | Created on *9/4/2023* | Last Modified on *9/4/2023* \
 Purge all files in a directory, it will delete all the contents of the file without deleting the file itself. I made this tool to help me clear some of my steam cloud storage. \
 [**Download**](things/FileScrubber/build/FileScrubber) | [**Source**](things/FileScrubber/src/FileScrubber)
