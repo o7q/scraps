@@ -10,6 +10,18 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
+**DirDiff** | Created on *6/12/2024* | Last Modified on *6/12/2024* \
+A program that displays the difference between two directories. \
+[**Download**](things/DirDiff/build/DirDiff) | [**Source**](things/DirDiff/src/DirDiff)
+
+<br>
+
+**MCTextureReplacer** | Created on *6/3/2024* | Last Modified on *6/3/2024* \
+A program that replaces all Minecraft textures with a specific image. \
+[**Download**](things/SuperRenamer/build/SuperRenamer) | [**Source**](things/SuperRenamer/src/SuperRenamer)
+
+<br>
+
 **HoloFishBot** | Created on *5/22/2024* | Last Modified on *5/22/2024* \
 A fishing bot for HoloCure. \
 [**Download**](things/HoloFishBot/build/HoloFishBot) | [**Source**](things/HoloFishBot/src/HoloFishBot)
