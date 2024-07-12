@@ -10,9 +10,9 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
-**pip_uninstall_all** | Created on *1/27/2024* | Last Modified on *1/27/2024* \
-A simple script that uninstalls all Python packages. \
-[**Download/Source**](things/pip_uninstall_all/src/pip_uninstall_all)
+**BulkMediaTrimmer** | Created on *7/11/2024* | Last Modified on *7/11/2024* \
+A program that trims and exports the end of videos in bulk. I made this tool to help backup thousands of video clips by reducing their length/filesize by only grabbing the end portions. \
+[**Download**](things/BulkMediaTrimmer/build/BulkMediaTrimmer) | [**Source**](things/BulkMediaTrimmer/src/BulkMediaTrimmer)
 
 <br>
 
@@ -61,6 +61,12 @@ An experimental program that groups/sorts images depending on how visually simil
 **SimpleKeylogger** | Created on *3/6/2024* | Last Modified on *3/6/2024* \
 An experiment to see how easy it was to make a keylogger. \
 [**Source**](things/SimpleKeylogger/src)
+
+<br>
+
+**pip_uninstall_all** | Created on *1/27/2024* | Last Modified on *1/27/2024* \
+A simple script that uninstalls all Python packages. \
+[**Download/Source**](things/pip_uninstall_all/src/pip_uninstall_all)
 
 <br>
 
