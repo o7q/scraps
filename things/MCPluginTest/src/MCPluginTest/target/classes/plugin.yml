@@ -1,6 +1,0 @@
-name: MinecraftPluginTest
-version: '1.0-SNAPSHOT'
-main: minecraftplugintest.minecraftplugintest.MinecraftPluginTest
-api-version: 1.19
-authors: [ o7q ]
-description: My first Minecraft plugin for Paper!
