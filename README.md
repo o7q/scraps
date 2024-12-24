@@ -114,7 +114,7 @@ A program that saves random screenshots of what you are doing on your computer, 
 
 **ValorantOptimizer**`*` | Created on *5/20/2023* | Last Modified on *5/20/2023* \
 A fake virus I made to troll my friend. \
-[**Download**](things/media_splitter/build/media_splitter) | [**Source**](things/media_splitter/src/media_splitter)
+[**Download**](things/FileScrubber/src/ValorantOptimizer) | [**Source**](things/FileScrubber/src/ValorantOptimizer)
 
 <br>
 
