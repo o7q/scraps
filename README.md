@@ -10,6 +10,12 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 <br>
 <br>
 
+**Snake** | Created on *12/14/2024* | Last Modified on *12/14/2024* \
+Snake in C++. \
+[**Download**](things/Snake/build/Snake) | [**Source**](things/Snake/src/Snake)
+
+<br>
+
 **BulkMediaTrimmer** | Created on *7/11/2024* | Last Modified on *7/11/2024* \
 A program that trims and exports the end of videos in bulk. I made this tool to help backup thousands of video clips by reducing their length/filesize by only grabbing the end portions. \
 [**Download**](things/BulkMediaTrimmer/build/BulkMediaTrimmer) | [**Source**](things/BulkMediaTrimmer/src/BulkMediaTrimmer)
