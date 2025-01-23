@@ -11,6 +11,12 @@ Projects with a `*` next to them are ones that could be annoying. (a fake virus/
 
 ---
 
+**videoplayer** | Created on *1/15/2025* | Last Modified on *1/22/2025* \
+A terrible video player made with SDL. (it doesn't playback audio) \
+[**Download**](things/videoplayer/build/videoplayer) | [**Source**](things/videoplayer/src/videoplayer)
+
+---
+
 **Snake** | Created on *12/14/2024* | Last Modified on *12/14/2024* \
 Snake in C++. \
 [**Download**](things/Snake/build/Snake) | [**Source**](things/Snake/src/Snake)
